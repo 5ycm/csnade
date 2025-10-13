@@ -1,6 +1,6 @@
 
 function isMobileCheck(){
-    return /Android|iPhone/i.test(navigator.userAgent) || navigator.maxTouchPoints > 0;
+    return /Android|iPhone/i.test(navigator.userAgent);
 }
 
 console.log("Mobile detector running");
